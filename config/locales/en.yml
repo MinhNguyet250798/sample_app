@@ -1,0 +1,30 @@
+en:
+  static_pages:
+    home:
+      home: Home 
+      sample_app: Sample App
+      this_is_the_home: This is the home page for the
+      sample_application: sample application
+      ruby: Ruby on Rails Tutorial 
+    help:
+      help: Help
+      get_help: Get help on the Ruby on Rails Tutorial at the
+      to_get: To get help on this sample app, see the
+      book: book
+      rails: Rails Tutorial help section
+    about:
+      the: The 
+      is_a: is a
+      and: And
+      to_teach: To Teach Web Development With
+      this_is: This Is The Sample Application For The Tutorial
+      about: About
+      book: Book 
+      ruby: Ruby on Rails Tutorial
+      screencast: screencast series
+      ruby_on: Ruby on rails
+  layouts:  
+    application:   
+      ruby: Ruby on Rails Tutorial Sample App
+      english: English
+      vietnamese: Vietnamese

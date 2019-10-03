@@ -1,0 +1,31 @@
+vi:
+  static_pages:
+    home:
+      home: Trang chủ 
+      sample_app: ứng dụng mẫu
+      this_is_the_home: Đây là trang chủ cho
+      sample_application: ứng dụng mẫu
+      ruby: Hướng dẫn về Ruby on Rails
+    help:
+      help: Trợ Giúp
+      get_help: Nhận trợ giúp về Hướng dẫn Ruby on Rails tại
+      to_get: Để nhận trợ giúp về ứng dụng mẫu này, hãy xem
+      book: Sách
+      rails: Phần trợ giúp của Rails Tutorial
+    about:
+      the: Các 
+      is_a: là một
+      and: Và
+      to_teach: Dạy phát triển web với
+      this_is: Đây là ứng dụng mẫu cho hướng dẫn
+      about: Trong khoảng 
+      book: Sách  
+      ruby: Hướng dẫn về Ruby on Rails
+      screencast: loạt screencast
+      ruby_on: Ruby on rails
+  layouts: 
+    application:
+      ruby: Ứng dụng mẫu hướng dẫn Ruby on Rails
+      english: Tiếng Anh 
+      vietnamese: Tiếng Việt
+

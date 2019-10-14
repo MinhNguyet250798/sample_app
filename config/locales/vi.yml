@@ -1,31 +1,52 @@
 vi:
   static_pages:
     home:
-      home: Trang chủ 
-      sample_app: ứng dụng mẫu
-      this_is_the_home: Đây là trang chủ cho
-      sample_application: ứng dụng mẫu
-      ruby: Hướng dẫn về Ruby on Rails
+      en: Tiếng Anh
+      vi: Tiếng Việt
+      ruby_on_rails: Ứng dụng mẫu Ruby on Rails Tutorial
+      sample_app: Ứng dụng mới
+      tutorial: Đây là trang chủ của
+      sign_up_now: Đăng ký
     help:
-      help: Trợ Giúp
-      get_help: Nhận trợ giúp về Hướng dẫn Ruby on Rails tại
-      to_get: Để nhận trợ giúp về ứng dụng mẫu này, hãy xem
-      book: Sách
-      rails: Phần trợ giúp của Rails Tutorial
+      en: Tiếng Anh
+      vi: Tiếng Việt
+      help: Trợ giúp
+      rails_tutorial: Trang trợ giúp của Rails Tutorial
+      rails_book: Sách hướng dẫn về Ruby on Rails
+      pagehelp: Nhận trợ giúp trên Ruby on Rails tại
+      apphelp: Nhận trợ giúp về ứng dụng này, hãy xem
+    contact:
+      en: Tiếng Anh
+      vi: Tiếng Việt
+      cp: Trang liên lạc
+      contact: Liên hệ
+      ctror: Liên hệ với Ruby on Rails về ứng dụng mẫu tại
     about:
-      the: Các 
+      about: Thông tin
+      en: Tiếng Anh
+      vi: Tiếng Việt
+      the_ruby_on_rails_tutorial: Hướng dẫn về Ruby on Rails
+      book: Sách
+      development: để dạy phát triển web với
+      sample_application: đây là ứng dụng mẫu cho hướng dẫn
+      and: và
       is_a: là một
-      and: Và
-      to_teach: Dạy phát triển web với
-      this_is: Đây là ứng dụng mẫu cho hướng dẫn
-      about: Trong khoảng 
-      book: Sách  
-      ruby: Hướng dẫn về Ruby on Rails
-      screencast: loạt screencast
-      ruby_on: Ruby on rails
-  layouts: 
-    application:
-      ruby: Ứng dụng mẫu hướng dẫn Ruby on Rails
-      english: Tiếng Anh 
-      vietnamese: Tiếng Việt
-
+  layouts:
+    footer:
+      the_ruby_on_rails_tutorial: Hướng dẫn về Ruby on Rails
+      michael_hartl: Michael Hartl
+      by: của
+      about: Thông tin
+      contact: Liên hệ
+      news: Tin tức
+    header:
+      sample_app: Ứng dụng
+      home: Trang chủ
+      help: Trợ giúp
+      login: Đăng nhập
+  users:
+    new:
+      signup: Đăng ký
+      sign: Đăng ký
+      this_will: Đây là trang đăng ký cho người dùng mới
+  ruby: Ứng dụng mẫu hướng dẫn Ruby on Rails

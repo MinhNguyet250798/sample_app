@@ -1,10 +1,12 @@
 <% provide :title, t(".about") %>
-<h1> <%= t ".about" %> </h1>
+<%= link_to t(".en"), locale: Settings.en %>
+<%= link_to t(".vi"), locale: Settings.vi %>
+<h1><%= t(".about") %></h1>
 <p>
-  <%= t ".the" %> <%= link_to t(".ruby"), Settings.link_rails_tut %> <%= t ".is_a" %>
-  <%= link_to t(".book"), Settings.link_rails_tut %> <%= t ".and" %>
-  <%= link_to t(".screencast"), Settings.link_rails_tut %>
-  <%= t ".to_teach" %>
-  <%= link_to t(".ruby_on"), Settings.link_rails_tut %>
-  <%= t ".this_is" %>
+  <%= link_to t(".the_ruby_on_rails_tutorial"), Settings.ror %>
+  <%= t(".is_a") %>
+  <%= link_to t(".book"), Settings.book %>
+  <%= t(".and") %> <%= link_to t(".screencast_series"), Settings.ss %>
+  <%= t(".development") %> <%= link_to t(".ruby_on_rails"), Settings.ruby %>
+  <%= t(".sample_application") %>
 </p>

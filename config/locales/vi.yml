@@ -49,4 +49,16 @@ vi:
       signup: Đăng ký
       sign: Đăng ký
       this_will: Đây là trang đăng ký cho người dùng mới
+      name: Tên
+      password: Mật Khẩu
+      confirmation: Xác Nhận Mật Khẩu
+      create: Đăng ký tài khoản
+      welcome: Chào mừng bạn đến với Ứng dụng mẫu
+      fail: Thông tin không hợp lệ
+    show:
+      user: Không tìm thấy User
+  shared:
+    _error_messages:
+      the: Biểu mẫu có chứa
+      error: Lỗi
   ruby: Ứng dụng mẫu hướng dẫn Ruby on Rails

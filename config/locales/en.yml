@@ -49,4 +49,16 @@ en:
       signup: Sign up
       sign: Sign up
       this_will: This will be a signup page for new users
+      name: Name
+      password: Password
+      confirmation: Confirmation
+      create: Create my account
+      welcome: Welcome to the Sample App
+      fail: Invalid information
+    show:
+      user: Not user found
+  shared:
+    _error_messages:
+      the: The form contains
+      error: error
   ruby: Ruby on Rails Tutorial Sample App

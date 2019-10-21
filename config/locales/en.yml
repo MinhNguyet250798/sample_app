@@ -40,10 +40,18 @@ en:
       contact: Contact
       news: News
     header:
+      home_pages: Home
+      help_pages: Help
+      login: Login
+      eng: English
+      vi: Vietnamese
       sample_app: Sample App
-      home: Home
-      help: Help
-      login: Log in
+      users: Users
+      account: Account
+      profile: Profile
+      settings: Settings
+      logout: Logout
+      login: Login
   users:
     new:
       signup: Sign up
@@ -62,3 +70,11 @@ en:
       the: The form contains
       error: error
   ruby: Ruby on Rails Tutorial Sample App
+  sessions:
+    new:
+      log_in: Log in
+      sign: sign up now!
+      new_user: New User
+      email: email
+      password: password
+    notification: Invalid email/password combination

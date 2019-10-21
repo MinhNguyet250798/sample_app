@@ -40,9 +40,17 @@ vi:
       contact: Liên hệ
       news: Tin tức
     header:
+      home_pages: Trang chủ
+      help_pages: Giúp đỡ
+      login: Đăng nhập
+      eng: Tiếng Anh
+      vi: Tiếng Việt
       sample_app: Ứng dụng
-      home: Trang chủ
-      help: Trợ giúp
+      users: Người dùng
+      account: Tài khoản
+      profile: Thông tin tài khoản
+      settings: Cài đặt
+      logout: Đăng xuất
       login: Đăng nhập
   users:
     new:
@@ -62,3 +70,11 @@ vi:
       the: Biểu mẫu có chứa
       error: Lỗi
   ruby: Ứng dụng mẫu hướng dẫn Ruby on Rails
+  sessions:
+    new:
+      log_in: Đăng nhập
+      sign: đăng ký ngay!
+      new_user: Người dùng mới
+      email: email
+      password: Mật khẩu
+    notification: Kết hợp email / mật khẩu không hợp lệ

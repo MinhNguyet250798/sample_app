@@ -77,4 +77,6 @@ vi:
       new_user: Người dùng mới
       email: email
       password: Mật khẩu
+      remember: Hãy lưu lại trên máy tính này
+      remember_me: Lưu lại
     notification: Kết hợp email / mật khẩu không hợp lệ

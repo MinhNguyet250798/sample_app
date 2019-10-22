@@ -77,4 +77,6 @@ en:
       new_user: New User
       email: email
       password: password
+      remember: Remember me on this computer
+      remember_me: remember_me
     notification: Invalid email/password combination

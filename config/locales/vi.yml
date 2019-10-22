@@ -63,8 +63,23 @@ vi:
       create: Đăng ký tài khoản
       welcome: Chào mừng bạn đến với Ứng dụng mẫu
       fail: Thông tin không hợp lệ
+      profile: Hồ sơ cá nhân đã cập nhật
+      user: Người dùng đã xóa
+      login: Xin vui lòng đăng nhập.
+      notfound: Người dùng không tồn tại
+      delete: đã xóa
     show:
       user: Không tìm thấy User
+    edit:
+      edit_user: Chỉnh sửa người dùng
+      update: Cập nhật hồ sơ của bạn
+      save_changes: Lưu thay đổi
+      change: Thay đổi
+      name: Tên
+      password: Mật Khẩu
+      password_confirmation: Nhập lại mật khẩu
+    index:
+      all_users: Tất cả người dùng
   shared:
     _error_messages:
       the: Biểu mẫu có chứa
@@ -80,3 +95,5 @@ vi:
       remember: Hãy lưu lại trên máy tính này
       remember_me: Lưu lại
     notification: Kết hợp email / mật khẩu không hợp lệ
+  delete: Xóa
+  you_sure: Bạn chắc chắn

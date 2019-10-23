@@ -68,6 +68,7 @@ en:
       login: Please log in.
       notfound: User doesn't exist
       delete: Delete
+      please: Please check your email to activate your account
     show:
       user: Not user found
     edit:
@@ -80,10 +81,6 @@ en:
       password_confirmation: Password_confirmation
     index:
       all_users: All users
-  shared:
-    _error_messages:
-      the: The form contains
-      error: error
   ruby: Ruby on Rails Tutorial Sample App
   sessions:
     new:
@@ -97,3 +94,12 @@ en:
     notification: Invalid email/password combination
   delete: Delete
   you_sure: You sure
+  the: The form contains
+  error: error
+  account: Account activated!
+  invalid: Invalid activation link
+  acount_activate: Account not activated, Check your email for the activation link.
+  welcome_me: Welcome to the Sample App! Click on the link below to activate your account
+  account_activation_me: Account activation
+  activate: Activate
+  hi: Hi

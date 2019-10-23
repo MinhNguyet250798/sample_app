@@ -63,8 +63,23 @@ en:
       create: Create my account
       welcome: Welcome to the Sample App
       fail: Invalid information
+      profile: Profile updated
+      user: User deleted
+      login: Please log in.
+      notfound: User doesn't exist
+      delete: Delete
     show:
       user: Not user found
+    edit:
+      edit_user: Edit user
+      update: Update your profile
+      save_changes: Save changes
+      change: Change
+      name: Name
+      password: Password
+      password_confirmation: Password_confirmation
+    index:
+      all_users: All users
   shared:
     _error_messages:
       the: The form contains
@@ -80,3 +95,5 @@ en:
       remember: Remember me on this computer
       remember_me: remember_me
     notification: Invalid email/password combination
+  delete: Delete
+  you_sure: You sure

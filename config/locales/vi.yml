@@ -68,6 +68,7 @@ vi:
       login: Xin vui lòng đăng nhập.
       notfound: Người dùng không tồn tại
       delete: đã xóa
+      please: Hãy kiểm tra email của bạn để kích hoạt tài khoản
     show:
       user: Không tìm thấy User
     edit:
@@ -80,10 +81,6 @@ vi:
       password_confirmation: Nhập lại mật khẩu
     index:
       all_users: Tất cả người dùng
-  shared:
-    _error_messages:
-      the: Biểu mẫu có chứa
-      error: Lỗi
   ruby: Ứng dụng mẫu hướng dẫn Ruby on Rails
   sessions:
     new:
@@ -97,3 +94,13 @@ vi:
     notification: Kết hợp email / mật khẩu không hợp lệ
   delete: Xóa
   you_sure: Bạn chắc chắn
+  the: Biểu mẫu có chứa
+  error: Lỗi
+  account: Tài khoản được kích hoạt!
+  invalid: Liên kết kích hoạt không hợp lệ
+  acount_activate: Tài khoản chưa được kích hoạt, Kiểm tra email của bạn để biết liên kết kích hoạt.
+  welcome_me: Chào mừng bạn đến với Ứng dụng mẫu! Nhấp vào liên kết dưới đây để kích hoạt tài khoản của bạn
+
+  account_activation_me: Kích hoạt tài khoản
+  activate: kích hoạt
+  hi: Xin chào

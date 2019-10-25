@@ -5,10 +5,10 @@ class UsersController < ApplicationController
   before_action :admin_user, only: :destroy
 
   def index
-    @users = User.page(params[:page]).per Settings.per_page
+    @users = User.activate.page(params[:page]).per Settings.USER_LIST_PER_PAGE
   end
 
-  def show;  end
+  def show; end
 
   def new
     @user = User.new
@@ -17,20 +17,19 @@ class UsersController < ApplicationController
   def create
     @user = User.new user_params
     if @user.save
-      log_in @user
-      flash[:success] = t ("users.new.welcome")
-      redirect_to @user
+      @user.send_activation_email
+      flash[:info] = t "users.new.please"
     else
-      flash[:danger] = t ("users.new.fail")
-      render :new
+      flash[:danger] = t "users.new.fail"
     end
+    redirect_to root_url
   end
 
   def edit; end
 
   def update
     if @user.update user_params
-      flash[:success] = t ("users.new.profile")
+      flash[:success] = t "users.new.profile"
       redirect_to @user
     else
       render :edit
@@ -63,7 +62,7 @@ class UsersController < ApplicationController
   def logged_in_user
     return if logged_in?
       store_location
-      flash[:danger] = t ("users.new.login")
+      flash[:danger] = t "users.new.login"
       redirect_to login_url
   end
 

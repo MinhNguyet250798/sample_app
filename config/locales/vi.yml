@@ -91,6 +91,7 @@ vi:
       password: Mật khẩu
       remember: Hãy lưu lại trên máy tính này
       remember_me: Lưu lại
+      forgot_password: Quên mật khẩu
     notification: Kết hợp email / mật khẩu không hợp lệ
   delete: Xóa
   you_sure: Bạn chắc chắn
@@ -100,7 +101,25 @@ vi:
   invalid: Liên kết kích hoạt không hợp lệ
   acount_activate: Tài khoản chưa được kích hoạt, Kiểm tra email của bạn để biết liên kết kích hoạt.
   welcome_me: Chào mừng bạn đến với Ứng dụng mẫu! Nhấp vào liên kết dưới đây để kích hoạt tài khoản của bạn
-
   account_activation_me: Kích hoạt tài khoản
   activate: kích hoạt
   hi: Xin chào
+  forgot_password: Quên mật khẩu
+  email_sent: email được gửi với hướng dẫn đặt lại mật khẩu
+  email_address: Không tìm thấy địa chỉ email
+  submit: Gửi đi
+  to_reset: Để thiết lập lại mật khẩu của bạn, nhấp vào liên kết dưới đây
+  this_link: Liên kết này sẽ hết hạn trong hai giờ.
+  if_you: Nếu bạn không yêu cầu đặt lại mật khẩu, vui lòng bỏ qua email này và mật khẩu của bạn sẽ được giữ nguyên.
+  reset_password: Đặt lại mật khẩu
+  can't_be_empty: Không thể để trống
+  password_has_been: Mật khẩu đã được đặt lại
+  password_reset: Đặt lại mật khẩu đã hết hạn
+  update_password: Cập nhật mật khẩu
+  password: Mật khẩu
+  confirmation: Nhập lại mật khẩu
+  not_found_email: Không tìm thấy địa chỉ email
+  this_link_will: Liên kết này sẽ hết hạn sau hai giờ nữa
+  to_reset_your: Để thiết lập lại mật khẩu của bạn, nhấp vào liên kết dưới đây
+  if_you_did_you: Nếu bạn không yêu cầu đặt lại mật khẩu, vui lòng bỏ qua email này và mật khẩu của bạn sẽ được giữ nguyên.
+  email: Email

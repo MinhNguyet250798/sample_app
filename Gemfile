@@ -2,22 +2,22 @@ source "https://rubygems.org"
 git_source(:github){|repo| "https://github.com/#{repo}.git"}
 
 ruby "2.6.3"
+gem "bcrypt", "3.1.13"
 gem "bootsnap", ">= 1.4.2", require: false
+gem "bootstrap-kaminari-views"
 gem "bootstrap-sass", "3.4.1"
 gem "config"
+gem "faker", "2.1.2"
+gem "figaro"
 gem "jbuilder", "~> 2.5"
+gem "kaminari"
 gem "puma", "~> 3.11"
 gem "rails", "~> 6.0.0.rc1"
-gem "bcrypt", "3.1.13"
 gem "rails-i18n"
 gem "sass-rails", "~> 5"
 gem "sqlite3", "~> 1.4"
 gem "turbolinks", "~> 5"
 gem "webpacker", "~> 4.0"
-gem "faker", "2.1.2"
-gem "kaminari"
-gem "bootstrap-kaminari-views"
-gem "figaro"
 
 group :development, :test do
   gem "byebug", platforms: [:mri, :mingw, :x64_mingw]

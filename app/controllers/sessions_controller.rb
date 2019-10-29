@@ -5,9 +5,7 @@ class SessionsController < ApplicationController
     user = User.find_by email: params[:session][:email].downcase
     if user&.authenticate(params[:session][:password])
       if user.activated?
-        log_in user
-        params[:session][:remember_me] == Settings.number ? remember(user) : forget(user)
-        redirect_back_or user
+        login_if_activate
       else
         flash[:warning] = t "acount_activate"
         redirect_to root_url
@@ -21,5 +19,17 @@ class SessionsController < ApplicationController
   def destroy
     log_out
     redirect_to root_url
+  end
+
+  private
+
+  def login_with_activate
+    log_in user
+    if params[:session][:remember_me] == Settings.number
+      remember user
+    else
+      forget user
+    end
+    redirect_back_or user
   end
 end

@@ -1,5 +1,6 @@
 class User < ApplicationRecord
   VALID_EMAIL_REGEX = Settings.string_regex
+  has_many :microposts, dependent: :destroy
 
   attr_accessor :remember_token, :activation_token, :reset_token
 

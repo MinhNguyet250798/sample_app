@@ -7,6 +7,7 @@ vi:
       sample_app: Ứng dụng mới
       tutorial: Đây là trang chủ của
       sign_up_now: Đăng ký
+      micropost_feed: Micropost feed
     help:
       en: Tiếng Anh
       vi: Tiếng Việt
@@ -69,8 +70,11 @@ vi:
       notfound: Người dùng không tồn tại
       delete: đã xóa
       please: Hãy kiểm tra email của bạn để kích hoạt tài khoản
+      create_my_account: tạo tài khoản của tôi
+      email: Email
     show:
       user: Không tìm thấy User
+      microposts: Microposts
     edit:
       edit_user: Chỉnh sửa người dùng
       update: Cập nhật hồ sơ của bạn
@@ -79,6 +83,7 @@ vi:
       name: Tên
       password: Mật Khẩu
       password_confirmation: Nhập lại mật khẩu
+      email: Email
     index:
       all_users: Tất cả người dùng
   ruby: Ứng dụng mẫu hướng dẫn Ruby on Rails
@@ -123,3 +128,19 @@ vi:
   to_reset_your: Để thiết lập lại mật khẩu của bạn, nhấp vào liên kết dưới đây
   if_you_did_you: Nếu bạn không yêu cầu đặt lại mật khẩu, vui lòng bỏ qua email này và mật khẩu của bạn sẽ được giữ nguyên.
   email: Email
+  micropost_deleted: Micropost đã xóa
+  micropost_deleted_failed: Micropost xóa không thành công
+  micropost_not_correct: Micropost không đúng
+  you_sure: bạn đã chắc chắn
+  ago: Trước
+  posted: Tải lên
+  please_log_in: xin vui lòng đăng nhập
+  micropost_created: Micropost được tạo
+  view_my_profile: Xem hồ sơ của tôi
+  post: Bài Đăng
+  should_be_less: Nên dưới 5MB
+  compose_new_micropost: Soạn micropost mới
+  maximum_file: Kích thước tệp tối đa là 5MB. Vui lòng chọn một tập tin nhỏ hơn.
+  micropost: Bài viết
+  must_be_a: Phải là một định dạng hình ảnh hợp lệ
+  delete: Xóa

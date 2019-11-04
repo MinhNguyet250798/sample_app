@@ -3,11 +3,16 @@ class Micropost < ApplicationRecord
   has_one_attached :image
 
   scope :created_at, ->{order created_at: :desc}
-  scope :by_user, ->(id){where user_id: id}
+
+  scope :by_user, (lambda do |id|
+    where(user_id: Relationship.following_ids(id))
+    .or(Micropost.where(user_id: id))
+  end)
 
   validates :user_id, presence: true
   validates :content, presence: true, length: {maximum: Settings.content}
-  validates :image, content_type: {in: Settings.image, message: I18n.t("must_be_a")},
+  validates :image, content_type:
+    {in: Settings.image, message: I18n.t("must_be_a")},
     size: {less_than: Settings.FIVE.megabytes,
            message: I18n.t("should_be_less")}
 

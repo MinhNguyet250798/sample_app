@@ -148,3 +148,14 @@ en:
     other: microposts
   must_be_a: must be a valid image format
   delete: Delete
+  unfollow: Unfollow
+  follow: Follow
+  following: Following
+  follower: Follower
+  user_not_found: User not found
+  relationship_not_found: Relationship not found
+  micropost:
+    one: Micropost
+    other: Microposts
+  follow_did_not_succeed: Follow did not succeed
+  view_my_profile: view my profile

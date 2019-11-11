@@ -26,3 +26,4 @@ image: ["image/jpeg", "image/gif", "image/png"]
 FIVE: 5
 SIZE_MAX: 500
 IMAGE_TYPE: image/jpeg,image/gif,image/png
+thirty: 30

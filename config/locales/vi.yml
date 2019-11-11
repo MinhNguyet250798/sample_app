@@ -144,3 +144,12 @@ vi:
   micropost: Bài viết
   must_be_a: Phải là một định dạng hình ảnh hợp lệ
   delete: Xóa
+  unfollow: Hủy theo dõi
+  follow: theo dõi
+  following: Đang theo dõi
+  follower: Theo dõi bạn
+  user_not_found: Không tìm thấy người dùng
+  relationship_not_found: Không tìm thấy liên hệ này
+  microposts: Danh sách bài viết
+  follow_did_not_succeed: Theo dõi không thành công
+  view_my_profile: Xem hồ sơ của tôi

@@ -4,10 +4,9 @@ class MicropostsController < ApplicationController
 
   def create
     @micropost = current_user.microposts.build micropost_params
+    @micropost.image.attach params[:micropost][:image]
     if @micropost.save
-      @micropost.image.attach params[:micropost][:image]
-      flash[:success] = t "micropost_created"
-      redirect_to root_url
+      create_post_success
     else
       @feed_items = current_user.feed.page(params[:page]).per Settings.per_page
       render "static_pages/home"
@@ -34,6 +33,11 @@ class MicropostsController < ApplicationController
     return if @micropost
 
     flash[:danger] = t "micropost_not_correct"
+    redirect_to root_url
+  end
+
+  def create_post_success
+    flash[:success] = t "micropost_created"
     redirect_to root_url
   end
 end
